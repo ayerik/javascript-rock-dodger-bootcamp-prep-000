@@ -28,7 +28,7 @@ function checkCollision(rock) {
     const dodgerRightEdge = positionToInteger(DODGER.style.left) + 40
 
     const rockLeftEdge = positionToInteger(rock.style.left)
-    const rockRightEdge = positionToInteger(rock.style.left) +20
+    const rockRightEdge = positionToInteger(rock.style.left) + 20
 
     // These booleans are set to true if the right edge or the left edge of the rock is between the right and left edges of the dodger
     var rightCollision = false
